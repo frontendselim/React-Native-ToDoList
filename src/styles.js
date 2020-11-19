@@ -21,6 +21,12 @@ const main = StyleSheet.create({
         fontSize:35,
         color:'#ff9b31'
     },
+    textEmpty:{
+        color:'white',
+        fontSize:20,
+        textAlign:'center'
+
+    }
 })
 
 const todo_input = StyleSheet.create({
@@ -60,7 +66,7 @@ const todo_card = StyleSheet.create({
         borderRadius:5
     },
     text:{
-        color:'white',
+        color:'black',
         fontSize:18,
     }
     
